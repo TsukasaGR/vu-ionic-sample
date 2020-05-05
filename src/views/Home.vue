@@ -1,5 +1,5 @@
 <template>
-  <ion-app class="ion-page">
+  <div class="ion-page">
     <ion-header>
       <ion-toolbar>
         <ion-title>Hello World</ion-title>
@@ -12,7 +12,7 @@
       <ion-button @click="onClick()" full>Go to About Page</ion-button>
       <HelloWorld msg="Welcome to Your Vue.js App" />
     </ion-content>
-  </ion-app>
+  </div>
 </template>
 
 <script lang="ts">

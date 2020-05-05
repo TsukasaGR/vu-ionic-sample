@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "vue-ionic-sample",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "cordova": {}
+}

@@ -1,29 +1,50 @@
 # vue-ionic-sample
 
+## これは何か
+
+Vue(+TypeScript)に ionic/vue を使って Vue ベースのネイティブアプリをつくるサンプル
+
 ## Project setup
+
 ```
-yarn install
+yarn
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+## Compiles and minifies for production
+
 ```
 yarn build
 ```
 
-### Run your unit tests
+## Deploy for ios(Build before that)
+
+```
+# First time
+npx cap add ios
+# From the second time
+npx cap copy
+```
+
+## Check with XCode(Deploy before that)
+
+```
+npx cap open ios
+```
+
+## Run your unit tests
+
 ```
 yarn test:unit
 ```
 
-### Lints and fixes files
+## Lints and fixes files
+
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import { RouteConfig } from 'vue-router'
+import Index from '@/views/Index.vue'
 import Home from '@/views/Home.vue'
+import Favorite from '@/views/Favorite.vue'
+import Settings from '@/views/Settings.vue'
 import { IonicVueRouter } from '@ionic/vue'
 
 Vue.use(IonicVueRouter)
@@ -8,8 +11,22 @@ Vue.use(IonicVueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'Index',
+    component: Index,
+    children: [
+      {
+        path: '',
+        component: Home,
+      },
+      {
+        path: 'favorite',
+        component: Favorite,
+      },
+      {
+        path: 'settings',
+        component: Settings,
+      },
+    ],
   },
   {
     path: '/about',

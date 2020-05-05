@@ -11,19 +11,21 @@ Vue.use(IonicVueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Index',
     component: Index,
     children: [
       {
         path: '',
+        name: 'Index',
         component: Home,
       },
       {
         path: 'favorite',
+        name: 'Favorite',
         component: Favorite,
       },
       {
         path: 'settings',
+        name: 'Settings',
         component: Settings,
       },
     ],

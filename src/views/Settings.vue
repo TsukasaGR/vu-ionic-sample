@@ -12,8 +12,10 @@
   </div>
 </template>
 
-<style>
-#settings ion-header ion-toolbar {
-  background: var(--ion-color-secondary);
+<style lang="scss">
+#settings {
+  ion-header ion-toolbar {
+    --background: var(--ion-color-secondary);
+  }
 }
 </style>

@@ -4,6 +4,15 @@
 
 Vue(+TypeScript)に ionic/vue を使って Vue ベースのネイティブアプリをつくるサンプル
 
+## Note⚠
+
+- node_modules/@ionic/vue/node_modules/ionicons/dist/types/compoments.d.ts:63 を以下の通り修正しないと動かない
+  - [参考](https://github.com/ionic-team/ionic/issues/20208)
+
+```
+interface HTMLIonIconElement extends HTMLStencilElement {}
+```
+
 ## Project setup
 
 ```

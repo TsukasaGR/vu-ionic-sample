@@ -4640,12 +4640,17 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
+ionicons@4.5.9-1:
+  version "4.5.9-1"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.5.9-1.tgz#3db9688da88b39aff26322eae00f74aa69a37150"
+  integrity sha512-jR95cFGkPwNoH3MmoMF7qO+wMRgr7RdDG4Zuy+3WA6dnochfaZ1BisIC1TB3XLydy5cShxAK5eHqaSHcRkUHPQ==
+
 ionicons@^4.6.3:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.6.3.tgz#e4f3a3e9b66761eb8c0db27798cc1a8ce97777d2"
   integrity sha512-cgP+VIr2cTJpMfFyVHTerq6n2jeoiGboVoe3GlaAo5zoSBDAEXORwUZhv6m+lCyxlsHCS3nqPUE+MKyZU71t8Q==
 
-ionicons@^5.0.0, ionicons@^5.0.1:
+ionicons@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.0.1.tgz#fb48475b042b04b3ed2ba9876800687917d4603d"
   integrity sha512-P9GHr7pgCJcG211W0wute49NZ9AvJZvFJf4OwYybakjX6j7tu0q5t5HNWn9bcb9YjI7SxBblJg8iqQ1Yb59DXw==
@@ -9414,6 +9419,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-cli-plugin-ionic@~1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-ionic/-/vue-cli-plugin-ionic-1.0.0-alpha.1.tgz#5343da41f69e3dec4f75cfc2eed58f3e5f18bf84"
+  integrity sha512-5FIZP2eQgHINPumw4WldwT86Pi371Z7eWQWh3lpriFi8nWn49Qxl2UxnIlZ622tJkcw6t2xFFQAkNVUsBpJe9g==
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"

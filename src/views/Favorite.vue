@@ -10,12 +10,11 @@
     </ion-content>
   </div>
 </template>
-<style lang="scss" scoped>
+
+<style lang="scss">
 #favorite {
-  ion-header {
-    ion-toolbar {
-      background: pink;
-    }
+  ion-header ion-toolbar {
+    --background: pink;
   }
 }
 </style>
